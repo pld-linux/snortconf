@@ -1,5 +1,5 @@
 Summary:	A tool to ease configuring the OpenSource IDS tool Snort	
-Summary(pl):	Narzêdzie to ³atwego konfigurowania Snorta
+Summary(pl):	Narzêdzie do ³atwego konfigurowania Snorta
 Name:		snortconf
 Version:	0.4.2
 Release:	0.1
