@@ -7,7 +7,7 @@ License:	GPL v2
 Group:		Development
 Source0:	http://xjack.org/snortconf/downloads/%{name}-%{version}.tar.gz
 # Source0-md5:	9a25b762023f5630f3973858206acb84
-Patch1:		%{name}-ncurses.patch
+Patch0:		%{name}-include.patch
 URL:		http://xjack.org/snortconf/
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -24,10 +24,11 @@ przyjaznego tworzenia pliku snort.conf.
 
 %prep
 %setup -q
-%patch1 -p1
+%patch0 -p0
 
 %build
-%configure
+./configure
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
