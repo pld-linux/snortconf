@@ -1,5 +1,5 @@
 Summary:	A tool to ease configuring the OpenSource IDS tool Snort
-Summary(pl):	Narzêdzie do ³atwego konfigurowania Snorta
+Summary(pl.UTF-8):   NarzÄ™dzie do Å‚atwego konfigurowania Snorta
 Name:		snortconf
 Version:	0.4.2
 Release:	0.1
@@ -18,8 +18,8 @@ user friendly interface to creating a snort.conf file. It is still in
 it's early days of development, but it is already fully functional in
 most respects.
 
-%description -l pl
-SnortConf jest prostym i intuicyjnym narzêdziem s³u¿±cym do bardziej
+%description -l pl.UTF-8
+SnortConf jest prostym i intuicyjnym narzÄ™dziem sÅ‚uÅ¼Ä…cym do bardziej
 przyjaznego tworzenia pliku snort.conf.
 
 %prep
